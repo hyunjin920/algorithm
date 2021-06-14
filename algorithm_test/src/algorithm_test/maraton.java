@@ -14,7 +14,7 @@ public class maraton {
 class Solution {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
-        
+         
         String not_complete = "";
         HashMap<String, Integer> hashmap = new HashMap<String, Integer>();
 		// 아 해시 맵을 만들어서 들어온 친구인지, 중복된 친구인지 체크 하면 되는건가.
