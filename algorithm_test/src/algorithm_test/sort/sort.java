@@ -27,8 +27,8 @@ public class sort {
 	    public int[] solution(int[] array, int[][] commands) {
 	        int[] answer = {};
 	        
-	        
-	        int comLength = commands.length;
+	        //ㄳㄷ
+	        int comLength = commands.length; 
 	        System.out.println(comLength);
 	        //1. commands 에서 i, j 값 빼와서 정렬
 	        for(int i=0; i<commands.length; i++){
